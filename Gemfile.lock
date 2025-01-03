@@ -147,8 +147,6 @@ GEM
     nio4r (2.7.4)
     nokogiri (1.18.1-x64-mingw-ucrt)
       racc (~> 1.4)
-    nokogiri (1.18.1-x86_64-linux-gnu)
-      racc (~> 1.4)
     psych (5.2.2)
       date
       stringio
@@ -215,7 +213,6 @@ GEM
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
     sqlite3 (2.5.0-x64-mingw-ucrt)
-    sqlite3 (2.5.0-x86_64-linux-gnu)
     stimulus-rails (1.3.4)
       railties (>= 6.0.0)
     stringio (3.1.2)
@@ -243,7 +240,6 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
-  x86_64-linux
 
 DEPENDENCIES
   bootsnap
@@ -262,7 +258,7 @@ DEPENDENCIES
   web-console
 
 RUBY VERSION
-   ruby 3.3.6p108
+   ruby 3.2.6p234
 
 BUNDLED WITH
-   2.6.2
+   2.4.19
